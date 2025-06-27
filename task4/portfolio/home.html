@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Divya Abotula</div>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+         <li><a href="#about-contact">Contact</a></li>
+
+        </ul>
+      </nav>
+      
+
+    <!-- About Me -->
+    <section class="AboutMe" id="about">
+        <div class="aboutme">
+            <h1>I'm Divya, </h1>
+            <h1 id="typing"></h1>
+            <p class="profession">
+                I am a passionate Frontend Developer dedicated to crafting visually appealing and user-friendly websites. I love creating interactive experiences that bring ideas to life through clean, modern code.
+            </p>
+            <div>
+            <a href="files/Adapa Sasi Rekha_Resume.docx" download class="resume-btn">
+      <i class="fa-solid fa-download"></i> Download Resume
+    </a>
+        </div>
+        </div>
+        
+       <div class="my-img" id="profileImg">
+    <img src="image.png" alt="My Image" />
+</div>
+
+        
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+  <h1 class="section-title">Skills</h1>
+
+        <div class="frontend">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Defines the structure of web pages using semantic elements.</p>
+                <div class="skill-bar"><div class="progress" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Styles web pages with colors, layouts, animations, and responsiveness.</p>
+                <div class="skill-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Makes web pages interactive with dynamic content and logic.</p>
+                <div class="skill-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            
+        </div>
+        <div class="backend">
+            <div class="skill-card">
+    <h3>C</h3>
+    <p>Structured programming language used for developing system and application software.</p>
+    <div class="skill-bar"><div class="progress" style="width: 60%;"></div></div>
+</div>
+
+<div class="skill-card">
+    <h3>C++</h3>
+    <p>Object-oriented language used for high-performance applications like games and engines.</p>
+    <div class="skill-bar"><div class="progress" style="width: 70%;"></div></div>
+</div>
+
+            <div class="skill-card">
+            <h3>Java</h3>
+            <p>Object-oriented programming language widely used for backend systems and applications.</p>
+            <div class="skill-bar"><div class="progress" style="width: 35%;"></div></div>
+        </div>
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Used for backend development, AI/ML, and automation.</p>
+                <div class="skill-bar"><div class="progress" style="width: 55%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects">
+        <h1 class="head">Projects</h1>
+        <div class="projects-container">
+            <div class="project-box">
+                <div class="project-image">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Smart Study Website</h3>
+                    <p class="project-description">An interactive educational platform designed to enhance learning experiences with smart study tools, progress tracking, and personalized learning paths. Features include flashcards, quiz systems, and study analytics.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Local Storage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-image">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Simon Game</h3>
+                    <p class="project-description">A classic memory game recreation with modern web technologies. Players must repeat increasingly complex sequences of colors and sounds. Features include score tracking, difficulty levels, and responsive design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Web Audio API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-image">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-description">A responsive personal portfolio website showcasing my skills, projects, and professional journey. Built with modern web technologies and featuring smooth animations, contact forms, and mobile-first design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Responsive Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" class="project-btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <section id="about-contact">
+  <div class="contact-container">
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h2>Contact Me</h2>
+      <p><i class="fas fa-envelope"></i> divyaabotula1@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91 9876543210</p>
+      <p><i class="fas fa-map-marker-alt"></i> Vizianagaram, Andhra Pradesh, India</p>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/divya-abotula-223572259/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/DivyaAbotula"><i class="fab fa-github"></i></a>
+        <a href="mailto:divyaabotula1@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+
+      <!-- <a href="#" class="btn resume-btn">
+        <i class="fas fa-download"></i> Download CV
+      </a> -->
+    </div>
+
+    <!-- Contact Form -->
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">
+        <i class="fas fa-paper-plane"></i> Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js" defer></script>
+  <footer class="footer">
+    <p>© 2025 Divya Abotula | All rights reserved</p>
+  </footer>
+
+</body>
+</html>
+
