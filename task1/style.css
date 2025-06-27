@@ -1,0 +1,119 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f0f9ff; /* Softer pleasant background */
+  color: #333;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  background-color: #4db6ac; /* Calming teal shade */
+  padding: 30px 0;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.1em;
+  margin-top: 8px;
+}
+
+/* Container for travel cards */
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 20px;
+  gap: 24px;
+}
+
+/* Individual card styling */
+.place-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  padding: 18px;
+  transition: transform 0.2s;
+}
+
+/* Card hover animation */
+.place-card:hover {
+  transform: scale(1.03);
+}
+
+/* Consistent image sizing */
+.place-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
+/* Title of place */
+h2 {
+  color: #00796b;
+  margin: 0 0 10px;
+}
+
+/* Details title */
+.details h3 {
+  margin-bottom: 6px;
+}
+
+/* List spacing */
+ul {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+/* General button styles */
+button {
+  margin: 8px 5px 0 0;
+  padding: 10px  14px;
+  background-color: #4db6ac;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95em;
+  transition: background-color 0.2s ease;
+}
+
+/* Plan button specific */
+.plan-btn {
+  background-color: #81c784; /* Greenish tone */
+}
+
+.plan-btn:hover {
+  background-color: #66bb6a;
+}
+
+/* Toggle button hover */
+.toggle-details-btn:hover {
+  background-color: #26a69a;
+}
+
+/* Details section (hidden by default) */
+.details {
+  display: none;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+.description {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+

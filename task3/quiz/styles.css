@@ -1,0 +1,122 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #9dc6ef, #4163d4);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+#question {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  background: #eee;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option:hover {
+  background-color: #d0e3ff;
+}
+
+.option.selected {
+  background-color: #a5d8ff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#next-btn {
+  background-color: #007bff;
+}
+
+#next-btn:hover {
+  background-color: #0056b3;
+}
+
+#skip-btn {
+  background-color: #6c757d;
+}
+
+#skip-btn:hover {
+  background-color: #495057;
+}
+
+#score {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #28a745;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .quiz-container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  #question {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  #score {
+    font-size: 1rem;
+  }
+}
+.marks {
+  color: #ff5722; /* Change this to any color you like */
+  font-weight: bold;
+}

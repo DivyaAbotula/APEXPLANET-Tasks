@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Fixed Layout</title>
+      <link rel="stylesheet" href="layout.css">
+
+</head>
+<body>
+ <header>
+    <div class="nav-title">My Website</div>
+    <nav>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+    <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+  </header>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <button class="close-btn" onclick="toggleSidebar()">✖</button>
+    <h3>Side Bar</h3>
+    <p>This is your sidebar. It could contain links, ads, or related content.</p>
+
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <main class="main">
+    <h2>Main Content</h2>
+    <p>This is the main content section. You can include your blog, info, or posts here.</p>
+    <div class="cards">
+      <div class="card">Card 1</div>
+      <div class="card">Card 2</div>
+      <div class="card">Card 3</div>
+      <div class="card">Card 4</div>
+    </div>
+  </main>
+
+  <!-- JS for sidebar toggle -->
+  <script>
+    function toggleSidebar() {
+      const sidebar = document.getElementById("sidebar");
+      sidebar.classList.toggle("active");
+    }
+  </script>
+
+
+</body>
+</html>
