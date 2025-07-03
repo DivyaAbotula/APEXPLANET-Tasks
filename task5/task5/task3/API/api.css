@@ -1,0 +1,20 @@
+body {
+  font-family: Arial;
+  background:  linear-gradient(to right, #5D3A6A, #FF9AA2);
+;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.joke-box {
+    
+  background:#b997cf;
+  padding: 40px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.joke-button{
+    background-color:	#e5cfa2 ;
+    padding:5px;
+    border-radius:5px;
+}
